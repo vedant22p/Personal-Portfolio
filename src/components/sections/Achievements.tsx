@@ -29,10 +29,10 @@ const achievementsData = [
   },
   {
     id: 4,
-    title: "Leetcode 4-Star Rating",
+    title: "Leetcode 5-Star Rating",
     organization: "Leetcode",
     year: "2025",
-    description: "Demonstrated expertise by solving 1300+ DSA problems, securing a 4-star rating.",
+    description: "Demonstrated expertise by solving 1400+ DSA problems, securing a 4-star rating.",
     profileLink: "https://leetcode.com/u/user0352V/",
     icon: Star
   },
