@@ -35,7 +35,8 @@ const Hero: React.FC = () => {
           
           <div className="order-1 lg:order-2 flex justify-center mt-12 ml-4 md:ml-6 lg:ml-10" data-aos="fade-left">
 
-            <div className="relative w-72 h-72 md:w-[400px] md:h-[400px] overflow-hidden border-4 border-gray-800 shadow-xl">
+            <div className="relative w-72 h-[450px] md:w-[400px] md:h-[500px] overflow-hidden border-4 border-gray-800 shadow-xl">
+
               <img 
                 src="/profile.jpg" 
                 alt="Profile" 
