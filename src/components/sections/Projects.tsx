@@ -6,8 +6,8 @@ const projectsData = [
   {
     id: 1,
     title: "Personal Portfolio Website",
-    description: "Vedant Pandey's Personal Portfolio is a modern, responsive web application designed to showcase his skills, projects, and professional journey. Built using React, Tailwind CSS, and TypeScript, the portfolio emphasizes clean design and efficient performance. The project leverages Vite for rapid development and bundling, ensuring a seamless user experience. Key features include an interactive user interface, organized content sections, and optimized loading times, all tailored to highlight Vedant's expertise in web development and data science.",
-    tags: ["TypeScript", "JavaScript", "HTML", "React", "Tailwind CSS", "Vite", "ESLint", "PostCSS"],
+    description: "Vedant Pandey's Personal Portfolio is a modern, responsive web application designed to showcase his skills, projects, and professional journey. Built using React, Tailwind CSS, and TypeScript, the portfolio emphasizes clean design and efficient performance. The project leverages Vite for rapid development and bundling, ensuring a seamless and interactive user experience.",
+    tags: ["TypeScript", "JavaScript", "HTML", "React", "Tailwind CSS", "Vite", "PostCSS"],
     demoLink: "#",
     codeLink: "https://github.com/vedant22p/Personal-Portfolio"
   },
