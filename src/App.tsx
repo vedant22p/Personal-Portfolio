@@ -12,7 +12,7 @@ import Certifications from './components/sections/Certifications';
 import Skills from './components/sections/Skills';
 import Footer from './components/Footer';
 
-function App() {
+function App() { 
   useEffect(() => {
     AOS.init({
       once: true,
