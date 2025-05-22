@@ -6,28 +6,28 @@ const publicationsData = [
   {
     id: 1,
     title: "Spatially Attentive Scale Invariant Feature Modelling for Alzheimer's Disease Detection",
-    journal: "IEEE Xplore (Presented in IEEE Flagship Conference:I2CT)",
+    journal: "IEEE Xplore",
     date: "2024",
     link: "https://ieeexplore.ieee.org/abstract/document/10543826"
   },
   {
     id: 2,
     title: "Scale Invariant Feature Modelling with Integrated Transfer Learning for Parkinson's Disease Diagnosis",
-    journal: "IEEE Xplore (Presented in IEEE Prestigious Flagship Conference:15th ICCCNT at IIT-Mandi)",
+    journal: "IEEE Xplore",
     date: "2024",
     link: "https://ieeexplore.ieee.org/abstract/document/10723906"
   },
   {
     id: 3,
     title: "Vision Transformer Based Approach for Parkinson's Disease Diagnosis",
-    journal: "IEEE Xplore (Presented in IEEE Flagship Conference:TENSYMP R10)",
+    journal: "IEEE Xplore",
     date: "2024",
     link: "https://ieeexplore.ieee.org/document/10752200"
   },
   {
     id: 4,
     title: "A Comparative Study of Different Feature Extractors for Parkinson's Disease Detection",
-    journal: "IEEE Xplore (Presented in IEEE Flagship Conference:TENSYMP R10)",
+    journal: "IEEE Xplore",
     date: "2024",
     link: "https://ieeexplore.ieee.org/document/10752301"
   },
