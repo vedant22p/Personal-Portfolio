@@ -11,7 +11,7 @@ const experienceData = [
     location: "Remote",
     period: "January 2024 - March 2024",
     description: "Working as a Data Science Intern, focusing on implementing machine learning solutions and data analysis.",
-    skills: ["Python", "Machine Learning", "Data Analysis", "AI"],
+    skills: [],
     link: "https://thinksage.in/"
   },
   {

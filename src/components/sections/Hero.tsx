@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           <div className="order-1 lg:order-2 flex justify-center" data-aos="fade-left">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-800 shadow-xl">
               <img 
-                src="https://drive.google.com/uc?export=view&id=1_OxOzq8l3924QxZwM-xlrffNBFvN7EhU" 
+                src="https://drive.google.com/uc?export=view&id=1qRGzv8JT-O1uC6nDEYBPFbZr_jYKdXP5" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />

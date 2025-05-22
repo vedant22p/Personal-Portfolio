@@ -5,6 +5,14 @@ import ProjectCard from '../ui/ProjectCard';
 const projectsData = [
   {
     id: 1,
+    title: "Personal Portfolio Website",
+    description: "Vedant Pandey's Personal Portfolio is a modern, responsive web application designed to showcase his skills, projects, and professional journey. Built using React, Tailwind CSS, and TypeScript, the portfolio emphasizes clean design and efficient performance. The project leverages Vite for rapid development and bundling, ensuring a seamless user experience. Key features include an interactive user interface, organized content sections, and optimized loading times, all tailored to highlight Vedant's expertise in web development and data science.",
+    tags: ["TypeScript", "JavaScript", "HTML", "React", "Tailwind CSS", "Vite", "ESLint", "PostCSS"],
+    demoLink: "#",
+    codeLink: "https://github.com/vedant22p/Personal-Portfolio"
+  },
+  {
+    id: 2,
     title: "WhatsApp Chat Analyzer",
     description: "Achieved 25% increase in user engagement by developing a Python-based web application for personalized WhatsApp chat analysis. Enhanced communication by introducing Group and Personal Chat Analysis, monitoring 100+ activities and 10,000 messages. Added NLP Pipeline for sentiment analysis and modularized utilities for data visualization.",
     tags: ["Python", "NLP", "Matplotlib", "Seaborn", "Hugging Face"],
@@ -12,7 +20,7 @@ const projectsData = [
     codeLink: "https://github.com/vedant22p/Whatsapp-Chat-Analyzer-WebApp-"
   },
   {
-    id: 2,
+    id: 3,
     title: "AutoTabML",
     description: "Automated ML code generation for tabular data, reducing manual coding by 95%. Developed specialized agents for ML pipeline stages, improving development speed by 75%. Enhanced user productivity by 50% through integrated code execution and debugging capabilities.",
     tags: ["Llamba-70B", "Machine Learning", "LLM", "Hugging Face", "Streamlit", "NLP", "Deep Learning"],
@@ -20,7 +28,7 @@ const projectsData = [
     codeLink: "https://github.com/vedant22p/AutoTabML"
   },
   {
-    id: 3,
+    id: 4,
     title: "Elite CPU Scheduler",
     description: "Developed a C++ program implementing seven CPU scheduling algorithms: FCFS, RR, SPN, SRT, HRRN, Feedback, and Aging. Engineered an integrated system to compare waiting times, optimizing scheduling performance and demonstrating proficiency in advanced algorithmic concepts.",
     tags: ["C++", "OOP", "Operating Systems", "Algorithms"],
@@ -28,7 +36,7 @@ const projectsData = [
     codeLink: "https://github.com/vedant22p/CPU-Scheduling-Algorithms"
   },
   {
-    id: 4,
+    id: 5,
     title: "Chest Cancer Classification",
     description: "Developed an end-to-end deep learning pipeline for chest cancer classification using medical imaging. Implemented CNN with transfer learning, achieving high accuracy through comprehensive data preprocessing, augmentation, and model evaluation using metrics like ROC-AUC.",
     tags: ["Python", "TensorFlow", "CNN", "OpenCV", "Deep Learning", "Medical Imaging"],
