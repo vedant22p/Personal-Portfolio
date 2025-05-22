@@ -69,23 +69,23 @@ const Achievements: React.FC = () => {
       <div className="container mx-auto">
         <SectionHeading title="Achievements" />
         
-        <div className="mt-12 grid grid-cols-1 gap-8">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {achievementsData.map((item, index) => (
             <div 
               key={item.id}
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={index * 100}
-              className="bg-gray-800 rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden group border-l-4 border-blue-500"
+              className="bg-gray-800 rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden group border-l-4 border-blue-500 h-full"
             >
               <div className="absolute -right-10 -top-10 w-40 h-40 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
               
-              <div className="relative">
+              <div className="relative h-full flex flex-col">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-purple-900/30 text-purple-400 rounded-lg mb-4">
                   <item.icon size={24} />
                 </div>
                 
-                <h3 className="text-xl font-bold text-white mb-2">
+                <h3 className="text-lg font-bold text-white mb-2">
                   {item.link ? (
                     <a 
                       href={item.link}
@@ -107,7 +107,7 @@ const Achievements: React.FC = () => {
                   </span>
                 </div>
                 
-                <p className="text-gray-300">{item.description}</p>
+                <p className="text-gray-300 mt-auto">{item.description}</p>
               </div>
             </div>
           ))}

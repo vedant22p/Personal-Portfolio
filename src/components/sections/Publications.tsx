@@ -74,27 +74,28 @@ const Publications: React.FC = () => {
       <div className="container mx-auto">
         <SectionHeading title="Publications" />
         
-        <div className="mt-12 space-y-8">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {publicationsData.map((item, index) => (
             <div 
               key={item.id}
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={index * 100}
-              className="bg-gray-800 rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 border-l-4 border-blue-500"
+              className="bg-gray-800 rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-l-4 border-blue-500 flex flex-col justify-between h-full"
             >
-              <div className="flex flex-col md:flex-row justify-between mb-4">
-                <h3 className="text-xl font-bold text-white">{item.title}</h3>
-                <span className="mt-2 md:mt-0 text-sm text-gray-400">{item.date}</span>
+              <div>
+                <h3 className="text-lg font-bold text-white mb-3 line-clamp-2 hover:line-clamp-none transition-all duration-300">
+                  {item.title}
+                </h3>
+                <p className="text-purple-400 font-medium mb-2">{item.journal}</p>
+                <p className="text-sm text-gray-400 mb-4">{item.date}</p>
               </div>
-              
-              <p className="text-purple-400 font-medium mb-4">{item.journal}</p>
               
               <a 
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+                className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors mt-2"
               >
                 Read Publication <ArrowUpRight size={16} className="ml-1" />
               </a>
