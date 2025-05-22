@@ -6,18 +6,19 @@ const Hero: React.FC = () => {
     <section className="min-h-screen flex items-center justify-center pt-20 pb-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div className="order-2 lg:order-1" data-aos="fade-right">
-            <div className="mb-6">
+          <div className="order-2 lg:order-1 mt-10" data-aos="fade-right">
+            <div className="mb-6 pt-8">
+
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-600 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
                 Vedant Pandey
               </h1>
-              <h2 className="text-2xl md:text-3xl font-medium text-gray-300">
+              <h2 className="text-2xl md:text-xl font-medium text-gray-300">
                 Aspiring Data Scientist
               </h2>
             </div>
             
-            <p className="text-lg md:text-xl text-gray-400 mb-8">
-              I craft intelligent, data-driven solutions using modern AI tools. From NLP to deep learning, I build systems that solve real problems. I turn raw data into meaningful insights and visual stories. Driven by curiosity, I create scalable models that make an impact.
+            <p className="text-lg md:text-m text-gray-400 mb-8 text-justify" >
+              I build intelligent, user-focused solutions by combining data science, software engineering, and modern web technologies. With experience in NLP, deep learning, and full-stack development, I enjoy creating applications that are both impactful and efficient. From designing scalable ML pipelines to crafting responsive user interfaces, I bring a holistic approach to development. I transform complex data into actionable insights and write clean, maintainable code. Whether it’s building visualizations, automating workflows, or enhancing user experience, I focus on clarity, performance, and real-world value. Driven by curiosity and a passion for learning, I aim to develop solutions that don’t just function, but truly make a difference.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -32,10 +33,11 @@ const Hero: React.FC = () => {
             </div>
           </div>
           
-          <div className="order-1 lg:order-2 flex justify-center" data-aos="fade-left">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-800 shadow-xl">
+          <div className="order-1 lg:order-2 flex justify-center mt-12 ml-4 md:ml-6 lg:ml-10" data-aos="fade-left">
+
+            <div className="relative w-72 h-72 md:w-[400px] md:h-[400px] overflow-hidden border-4 border-gray-800 shadow-xl">
               <img 
-                src="https://drive.google.com/uc?export=view&id=1qRGzv8JT-O1uC6nDEYBPFbZr_jYKdXP5" 
+                src="https://drive.google.com/uc?export=view&id=1_OxOzq8l3924QxZwM-xlrffNBFvN7EhU" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
