@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
 
             <div className="relative w-72 h-[450px] md:w-[400px] md:h-[500px] overflow-hidden border-4 border-gray-800 shadow-xl">
 
-              <img 
+              <img  
                 src="/profile.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
