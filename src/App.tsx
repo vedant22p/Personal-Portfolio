@@ -19,36 +19,12 @@ function App() {
       duration: 1000,
       easing: 'ease-out',
     });
-
-    // Create particles
-    const createParticle = () => {
-      const particles = document.querySelector('.particles');
-      if (particles) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.animationDuration = (Math.random() * 8 + 4) + 's';
-        particles.appendChild(particle);
-        
-        setTimeout(() => {
-          particle.remove();
-        }, 8000);
-      }
-    };
-
-    // Create particles periodically
-    const particleInterval = setInterval(createParticle, 2000);
-
-    return () => clearInterval(particleInterval);
   }, []);
 
   return (
     <div className="relative min-h-screen bg-gray-900">
       {/* Neural Network Background */}
-      <div className="neural-bg"></div>
-      
-      {/* Floating Particles */}
-      <div className="particles"></div>
+      <div className="fixed inset-0 neural-network"></div>
       
       {/* Main Content */}
       <div className="relative z-10">
