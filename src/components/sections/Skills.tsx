@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionHeading from '../ui/SectionHeading';
+import { motion } from 'framer-motion';
 
 const skillsData = [
   {
