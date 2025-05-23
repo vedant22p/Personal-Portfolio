@@ -21,7 +21,7 @@ const experienceData = [
     location: "Remote",
     period: "October 2023 - April 2024",
     description: "Working as a Software Development Engineer Intern, developing and maintaining web applications.",
-    skills: ["Web Development", "JavaScript", "React", "Node.js"],
+    skills: [],
     link: "https://itjobxs.com/"
   },
   {
@@ -31,7 +31,7 @@ const experienceData = [
     location: "Remote",
     period: "May 2022 - November 2022",
     description: "Created and curated educational content for physics courses.",
-    skills: ["Content Creation", "Technical Writing", "Physics", "Education"],
+    skills: [],
     link: "https://www.pw.live/"
   },
   {
@@ -41,7 +41,7 @@ const experienceData = [
     location: "Remote",
     period: "June 2022 - September 2022",
     description: "Worked on implementing machine learning algorithms and developing AI solutions for educational platforms.",
-    skills: ["Python", "Machine Learning", "AI", "Data Science"],
+    skills: [],
     link: "https://edu-versity.in/"
   }
 ];
